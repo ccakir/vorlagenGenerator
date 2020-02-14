@@ -1,0 +1,449 @@
+12 Feb 2020 20:46:43,067 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 20:47:38,995 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 20:47:54,309 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:05:32,286 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:05:32,287 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:06:34,256 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:06:34,258 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:12:22,526 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:13:13,068 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:13:13,142 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:13:13,143 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:14:10,708 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:14:10,771 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:14:10,772 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:14:48,367 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:14:48,436 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:14:48,437 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:15:34,463 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:15:34,519 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:15:34,520 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:30:00,967 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:30:01,023 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:30:01,024 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:33:02,143 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:33:02,205 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:33:02,206 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:35:30,506 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:35:30,563 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:35:30,564 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:46:00,777 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:46:00,837 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:46:00,838 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:46:12,937 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Lieferant : null wurde gepeichert.
+12 Feb 2020 21:46:12,979 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:46:12,992 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:46:12,993 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:47:56,691 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:47:56,751 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:47:56,763 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:47:56,764 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:48:09,773 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Lieferant : Yeong Hwa wurde gepeichert.
+12 Feb 2020 21:48:09,798 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:09,811 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:09,823 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:09,823 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:48:48,906 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+12 Feb 2020 21:48:48,961 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:48,978 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:48,990 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:48,991 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:48:53,483 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Lieferant : asdadas wurde gepeichert.
+12 Feb 2020 21:48:53,509 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:53,520 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:53,533 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:53,549 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:48:53,550 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+12 Feb 2020 21:50:20,195 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Lieferant : xvx wurde gepeichert.
+12 Feb 2020 21:50:20,272 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:50:20,287 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:50:20,299 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:50:20,309 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:50:20,320 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+12 Feb 2020 21:50:20,320 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 19:21:36,823 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 19:21:36,898 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:21:36,910 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:21:36,922 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:21:36,933 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:21:36,945 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:21:36,945 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 19:27:54,196 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 19:27:54,256 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:27:54,269 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:27:54,281 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:27:54,293 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:27:54,306 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:27:54,307 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 19:28:04,555 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Lieferant : SIRPRESS wurde gepeichert.
+13 Feb 2020 19:28:04,597 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:28:04,613 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:28:04,626 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:28:04,640 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:28:04,653 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:28:04,664 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:28:04,665 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 19:30:16,753 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 19:30:16,817 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:30:16,830 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:30:16,845 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:30:16,859 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:30:16,873 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:30:16,886 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:30:16,887 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 19:31:41,952 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 19:31:42,021 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:31:42,033 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:31:42,047 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:31:42,058 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:31:42,068 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:31:42,080 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:31:42,080 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 19:39:40,127 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 19:39:40,189 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:39:40,202 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:39:40,215 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:39:40,228 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:39:40,242 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:39:40,255 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 19:39:40,256 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:04:13,634 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:04:13,695 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:04:13,709 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:04:13,721 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:04:13,735 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:04:13,747 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:04:13,759 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:04:13,760 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:07:17,661 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:07:17,718 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:07:17,731 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:07:17,744 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:07:17,756 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:07:17,768 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:07:17,782 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:07:17,782 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:08:06,725 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:08:06,786 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:08:06,798 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:08:06,810 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:08:06,822 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:08:06,834 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:08:06,847 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:08:06,848 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:09:36,994 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:09:37,073 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:09:37,091 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:09:37,110 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:09:37,125 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:09:37,141 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:09:37,169 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:09:37,169 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:10:32,966 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:10:33,026 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:10:33,041 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:10:33,054 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:10:33,066 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:10:33,077 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:10:33,090 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:10:33,091 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:13:45,835 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:13:45,898 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:13:45,925 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:13:45,938 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:13:45,950 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:13:45,963 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:13:45,977 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:13:45,978 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:13:50,626 {AWT-EventQueue-0} ERROR com.cakir.service.LieferantServiceImpl  - ID : 20 Lieferant konnte nicht geladen werden.
+13 Feb 2020 20:14:54,402 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:14:54,491 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:14:54,506 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:14:54,522 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:14:54,533 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:14:54,545 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:14:54,557 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:14:54,558 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:14:57,922 {AWT-EventQueue-0} ERROR com.cakir.service.LieferantServiceImpl  - ID : 20Lieferant konnte nicht gefunden werden.(Wert=null)
+13 Feb 2020 20:14:57,922 {AWT-EventQueue-0} ERROR com.cakir.service.LieferantServiceImpl  - ID : 20 Lieferant konnte nicht geladen werden.
+13 Feb 2020 20:17:36,316 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:17:36,375 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:17:36,388 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:17:36,401 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:17:36,413 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:17:36,425 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:17:36,439 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:17:36,439 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:17:43,052 {AWT-EventQueue-0} ERROR com.cakir.service.LieferantServiceImpl  - ID : 0 Lieferant konnte nicht gefunden werden.(Wert=null)
+13 Feb 2020 20:17:43,053 {AWT-EventQueue-0} ERROR com.cakir.service.LieferantServiceImpl  - ID : 0 Lieferant konnte nicht geladen werden.
+13 Feb 2020 20:19:30,663 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:19:30,725 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:19:30,739 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:19:30,752 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:19:30,764 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:19:30,776 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:19:30,788 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:19:30,789 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:20:38,402 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:20:38,462 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:38,477 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:38,491 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:38,503 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:38,518 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:38,532 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:38,533 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:20:41,405 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:20:41,406 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 2 Lieferant wurde geladen.
+13 Feb 2020 20:20:41,406 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 2 Lieferant wurde geladen.
+13 Feb 2020 20:20:41,506 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 2 Lieferant wurde gelöscht.
+13 Feb 2020 20:21:07,738 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:21:07,807 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:07,820 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:07,832 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:07,844 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:07,856 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:07,857 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:21:11,778 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:11,778 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 5 Lieferant wurde geladen.
+13 Feb 2020 20:21:11,779 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 5 Lieferant wurde geladen.
+13 Feb 2020 20:21:11,853 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 5 Lieferant wurde gelöscht.
+13 Feb 2020 20:21:13,109 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:13,126 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:13,138 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:13,149 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:13,150 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:21:44,858 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:44,870 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:44,882 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:44,894 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:21:44,894 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:38:37,991 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:38:38,053 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:38:38,065 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:38:38,080 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:38:38,091 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:38:38,091 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:38:42,231 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:38:42,231 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:38:52,523 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:38:52,523 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 20:39:36,061 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:39:36,122 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:39:36,134 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:39:36,149 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:39:36,160 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:39:36,161 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:39:39,538 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:39:39,539 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde geladen.
+13 Feb 2020 20:40:05,710 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:40:05,770 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:05,782 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:05,798 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:05,809 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:05,809 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:40:08,748 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:08,749 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 20:40:21,698 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:40:21,760 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:21,772 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:21,785 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:21,796 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:21,797 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:40:24,219 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:40:24,220 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde geladen.
+13 Feb 2020 20:42:30,919 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:42:30,980 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:42:30,992 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:42:31,006 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:42:31,018 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:42:31,018 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:42:34,169 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:42:34,170 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:45:56,149 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:45:56,216 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:45:56,229 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:45:56,243 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:45:56,257 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:45:56,258 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:45:59,544 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:45:59,544 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:47:38,457 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:47:38,518 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:38,530 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:38,542 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:38,554 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:38,555 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:47:41,203 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:41,204 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:47:51,816 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:51,817 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 20:47:54,739 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:54,739 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde geladen.
+13 Feb 2020 20:47:56,743 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:47:56,743 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 4 Lieferant wurde geladen.
+13 Feb 2020 20:48:22,669 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:48:22,670 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 20:50:02,613 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:50:02,676 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:02,688 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:02,700 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:02,713 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:02,714 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:50:07,240 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:07,240 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 4 Lieferant wurde geladen.
+13 Feb 2020 20:50:33,387 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 14 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:33,388 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 4 Lieferant wurde geladen.
+13 Feb 2020 20:50:33,388 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 4 Lieferant wurde geladen.
+13 Feb 2020 20:50:33,499 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 4 Lieferant wurde aktualisiert.
+13 Feb 2020 20:50:33,549 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:33,564 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:33,575 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:33,586 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:33,587 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:50:39,363 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:39,364 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde geladen.
+13 Feb 2020 20:50:46,466 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:46,467 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde geladen.
+13 Feb 2020 20:50:46,467 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde geladen.
+13 Feb 2020 20:50:46,545 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 6 Lieferant wurde aktualisiert.
+13 Feb 2020 20:50:46,569 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:46,581 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:46,593 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:46,604 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:46,605 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:50:52,883 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:52,883 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:50:56,584 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:56,584 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:50:56,585 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 20:50:56,673 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde aktualisiert.
+13 Feb 2020 20:50:56,706 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:56,722 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:56,734 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:56,746 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:50:56,747 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:51:33,795 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:51:33,883 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:51:33,896 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:51:33,909 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:51:33,920 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:51:33,920 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:52:45,819 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 20:52:45,881 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:52:45,895 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:52:45,909 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:52:45,921 {main} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:52:45,922 {main} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 20:52:59,100 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 20:52:59,100 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 4 Lieferant wurde geladen.
+13 Feb 2020 21:13:44,801 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:14:02,363 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:14:02,393 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:14:02,405 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:14:02,417 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:14:02,429 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:14:02,429 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:14:11,511 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 22 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:14:11,592 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 22 Mitarbeiter wurde von Datenbank gelöscht.
+13 Feb 2020 21:14:29,280 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:15:27,924 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:15:27,994 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:15:28,006 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:15:28,018 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:15:28,031 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:15:28,031 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:15:30,311 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:15:34,353 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:15:34,617 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 10 Mitarbeiter wurde von Datenbank gelöscht.
+13 Feb 2020 21:17:39,338 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:17:42,650 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:17:42,720 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 8 Mitarbeiter wurde von Datenbank gelöscht.
+13 Feb 2020 21:17:43,766 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:17:45,457 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 6 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:17:45,615 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 6 Mitarbeiter wurde von Datenbank gelöscht.
+13 Feb 2020 21:17:46,480 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:17:52,035 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:17:52,071 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:17:52,085 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:17:52,102 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:17:52,115 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:17:52,115 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:18:58,896 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:19:10,673 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:19:12,730 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:19:12,752 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:19:12,762 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:19:12,774 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:19:12,786 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:19:12,787 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:19:27,008 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:19:49,975 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Neue Mitarbeiter in Datenbank gespeichert.
+13 Feb 2020 21:19:50,010 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:19:57,252 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:20:06,814 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:20:06,883 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID :20 Mitarbeiter wurde aktualisiert.
+13 Feb 2020 21:20:06,924 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:20:14,930 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:20:14,953 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:20:14,964 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:20:14,974 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:20:14,985 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:20:14,985 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:23:36,226 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:23:36,316 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:23:36,331 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:23:36,343 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:23:36,356 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:23:36,356 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:23:59,742 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:23:59,743 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 3 Lieferant wurde geladen.
+13 Feb 2020 21:47:06,230 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:47:10,119 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:47:10,149 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:47:10,161 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:47:10,173 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:47:10,184 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:47:10,185 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:53:13,099 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:55:57,978 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:55:58,012 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:55:58,025 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:55:58,038 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:55:58,050 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:55:58,051 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:56:11,064 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:56:11,092 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:11,108 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:11,121 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:11,132 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:11,132 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:56:13,169 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:13,170 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 21:56:14,934 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:14,935 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 21:56:14,935 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde geladen.
+13 Feb 2020 21:56:15,063 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - ID : 1 Lieferant wurde aktualisiert.
+13 Feb 2020 21:56:15,096 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:15,110 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:15,120 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:15,130 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:15,131 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+13 Feb 2020 21:56:18,160 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+13 Feb 2020 21:56:18,183 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:18,193 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:18,203 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:18,214 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+13 Feb 2020 21:56:18,214 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+14 Feb 2020 20:44:48,356 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+14 Feb 2020 20:44:48,417 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:48,436 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:48,450 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:48,463 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:48,463 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+14 Feb 2020 20:44:52,723 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.
+14 Feb 2020 20:44:52,773 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 5 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:52,790 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 7 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:52,804 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 20 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:52,817 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - ID : 4 Mitarbeiter wurde gefunden.
+14 Feb 2020 20:44:52,818 {AWT-EventQueue-0} INFO  com.cakir.service.LieferantServiceImpl  - Alle Lieferanten wurden geladen.
+14 Feb 2020 20:44:55,157 {AWT-EventQueue-0} INFO  com.cakir.service.MitarbeiterServiceImpl  - Alle Mitarbeiter wurden aufgelistet.

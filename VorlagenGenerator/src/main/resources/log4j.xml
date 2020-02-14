@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration
+	xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	
+
+	<appender name="MyConsole"
+		class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-4r [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="DatabaseConnectionAppender" class="org.apache.log4j.FileAppender">
+		<param name="File" value="logs/databaseConnection.log"/>
+		<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} {%t} %-5p %c %x - %m%n"/>
+		</layout>
+	</appender>
+	
+	<appender name="MitarbeiterServiceAppender" class="org.apache.log4j.FileAppender">
+		<param name="File" value="logs/mitarbeiterService.log"/>
+		<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} {%t} %-5p %c %x - %m%n"/>
+		</layout>
+	</appender>
+	
+	<appender name="LieferantServiceAppender" class="org.apache.log4j.FileAppender">
+		<param name="File" value="logs/LieferantService.log"/>
+		<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} {%t} %-5p %c %x - %m%n"/>
+		</layout>
+	</appender>
+
+	<logger name="com.cakir.connect">
+		<level value="INFO"/>
+		<appender-ref ref="DatabaseConnectionAppender"/>
+	</logger>
+	
+	<logger name="com.cakir.service">
+		<level value="INFO"/>
+		<appender-ref ref="MitarbeiterServiceAppender"/>
+	</logger>
+	
+	<logger name="com.cakir.service">
+		<level value="INFO"/>
+		<appender-ref ref="LieferantServiceAppender"/>
+	</logger>
+	<root>
+		<priority value="debug" />
+		<appender-ref ref="MyConsole" />
+	</root>
+
+</log4j:configuration>
