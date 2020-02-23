@@ -5,6 +5,8 @@ package com.cakir.model;
 public class Lieferant {
 	
 	
+	
+
 	private long id;
 	
 	
@@ -30,7 +32,10 @@ public class Lieferant {
 	public void setMitarbeiter(Mitarbeiter mitarbeiter) {
 		this.mitarbeiter = mitarbeiter;
 	}
-
+@Override
+	public String toString() {
+		return "Lieferant [id=" + id + ", name=" + name + ", tel=" + tel + ", mitarbeiter=" + mitarbeiter + "]";
+	}
 
 	public Lieferant(long id, String name, String tel, Mitarbeiter mitarbeiter) {
 		super();

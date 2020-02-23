@@ -75,6 +75,12 @@ public class Teil {
 	public void setLieferant(Lieferant lieferant) {
 		this.lieferant = lieferant;
 	}
+
+	@Override
+	public String toString() {
+		return "Teil [id=" + id + ", teilname=" + teilname + ", teilenummer=" + teilenummer + ", mitarbeiter="
+				+ mitarbeiter + ", lieferant=" + lieferant + "]";
+	}
 	
 	
 

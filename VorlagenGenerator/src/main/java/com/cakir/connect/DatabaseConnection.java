@@ -19,26 +19,27 @@ public class DatabaseConnection {
 
 	private static final Log log = LogFactory.getLog(DatabaseConnection.class);
 	
-	public  DatabaseConnection() {
+	public  boolean DatabaseConnection() {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 			log.info("Treiber wurde geladen.");
+			
 		} catch (Exception e){
 			log.error("Treiber konnte nicht geladen werden!");
 			System.err.println(e);
 			e.printStackTrace();
-			System.exit(-1);
+			
 		}
 		
 		try {
 			conn=DriverManager.getConnection(connectURL, user, password);
 			log.info("Verbindung aufgebaut.");
-			
+			return true;
 		} catch (SQLException e) {
 			log.error("Keine Verbindung möglich.");
-			e.printStackTrace();
-			System.exit(-1);
+			//e.printStackTrace();
+			//System.exit(-1);
 		} finally {
 			if(conn != null) {
 			try {
@@ -48,6 +49,7 @@ public class DatabaseConnection {
 			}
 			}
 		}
+		return false;
 	}
 
 }

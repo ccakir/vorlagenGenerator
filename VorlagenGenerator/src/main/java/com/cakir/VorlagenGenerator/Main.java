@@ -2,10 +2,11 @@ package com.cakir.VorlagenGenerator;
 
 import javax.swing.JFrame;
 
-import com.cakir.jframe.HomeFrame;
-import com.cakir.jframe.LieferantFrame;
-import com.cakir.jframe.MitarbeiterFrame;
-import com.cakir.jframe.TeilFrame;
+import com.cakir.gui.HomeFrame;
+import com.cakir.gui.LieferantFrame;
+import com.cakir.gui.MitarbeiterFrame;
+import com.cakir.gui.TeilFrame;
+import com.cakir.gui.ZettelFrame;
 
 
 
@@ -16,9 +17,9 @@ public class Main
 	
 	public static void main( String[] args )
     {
-		
 		HomeFrame homeFrame = new HomeFrame();
 		homeFrame.setVisible(true);
+		
         /*
          * 
          * 
@@ -37,6 +38,12 @@ public class Main
 		TeilFrame tframe = new TeilFrame();
 		tframe.setLocationRelativeTo(null);
 		tframe.setVisible(true);
-    	*/	
+    		
+		
+		ZettelFrame zFrame = new ZettelFrame();
+		zFrame.setLocationRelativeTo(null);
+		zFrame.setVisible(true);
+		
+		*/
     }
 }

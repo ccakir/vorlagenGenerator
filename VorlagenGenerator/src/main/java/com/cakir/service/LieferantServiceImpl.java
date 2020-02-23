@@ -112,6 +112,14 @@ public class LieferantServiceImpl implements LieferantService {
 				log.error("ID : " + id + " Lieferant konnte nicht gelöscht werden.", e);
 				e.printStackTrace();
 				return false;
+			} finally {
+				if (conn != null) {
+					try {
+						conn.close();
+					} catch (SQLException e) {
+						e.printStackTrace();
+					}
+				}
 			}
 
 		} else {
