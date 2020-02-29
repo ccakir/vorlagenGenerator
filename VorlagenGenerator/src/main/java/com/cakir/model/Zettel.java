@@ -1,7 +1,7 @@
 package com.cakir.model;
 
-import java.time.LocalDate;
-import java.util.Date;
+
+
 
 public class Zettel {
 	

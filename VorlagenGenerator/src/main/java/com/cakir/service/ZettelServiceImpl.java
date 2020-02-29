@@ -1,7 +1,6 @@
 package com.cakir.service;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -14,7 +13,6 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.cakir.connect.DatabaseConnection;
-import com.cakir.model.Lieferant;
 import com.cakir.model.Mitarbeiter;
 import com.cakir.model.Teil;
 import com.cakir.model.Zettel;
@@ -23,7 +21,7 @@ public class ZettelServiceImpl implements ZettelService{
 	
 	private Connection conn;
 	
-	DatabaseConnection connect = new DatabaseConnection();
+	
 	
 	private static final Log log = LogFactory.getLog(ZettelServiceImpl.class);
 	
@@ -34,7 +32,7 @@ public class ZettelServiceImpl implements ZettelService{
 	public void speichernZettel(Zettel zettel) {
 		
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 			
 			int result = stmt.executeUpdate("INSERT INTO zettel(datum, grund, bemerkung, schicht, abteilung, maschiene, quantity,"
@@ -72,7 +70,7 @@ public class ZettelServiceImpl implements ZettelService{
 		List<Zettel> listZettel = new ArrayList<Zettel>();
 		
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery("SELECT * FROM zettel WHERE type='"+type+"'ORDER BY id DESC");
 			
@@ -105,7 +103,7 @@ public class ZettelServiceImpl implements ZettelService{
 			
 		} catch (SQLException e) {
 			log.error("Zettel List konnte nicht geladen werden", e);
-			e.printStackTrace();
+			
 			return null;
 		} finally {
 			if (conn != null) {
@@ -124,7 +122,7 @@ public class ZettelServiceImpl implements ZettelService{
 		if(zettelKontrolle(id) ) {
 			
 			try {
-				conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 				Statement stmt = conn.createStatement();
 				
 				int result = stmt.executeUpdate("DELETE FROM zettel WHERE id='"+id+"'");
@@ -155,13 +153,12 @@ public class ZettelServiceImpl implements ZettelService{
 	@Override
 	public Zettel findZettelById(long id) {
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM zettel WHERE id='"+id+"'");
 			
 			if(rs.next()) {
-				log.info("ID : "+id+" Zettel wurde geladen.");
 				
 				Teil teil = teilService.findTeilById(rs.getLong("teil_id"));
 				Mitarbeiter mitarbeiter = mitarbeiterService.findMitarbeiterById(rs.getLong("mitarbeiter_id"));
@@ -182,7 +179,7 @@ public class ZettelServiceImpl implements ZettelService{
 				return zettel;
 			}
 		} catch (SQLException e) {
-			log.error("ID : "+id+ " Zettel konnte nicht geladen weden", e);
+			log.error("ID : "+id+ " Zettel konnte nicht geladen werden", e);
 			e.printStackTrace();
 			return null;
 			
@@ -215,7 +212,7 @@ public class ZettelServiceImpl implements ZettelService{
 		if(zettelKontrolle(zettel.getId())) {
 			
 			try {
-				conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 				PreparedStatement prStatement = conn.prepareStatement("UPDATE zettel SET datum=?, grund=?, bemerkung=?, schicht=?, abteilung=?, maschiene=?, quantity=?, teil_id=?, mitarbeiter_id=?, type=? WHERE id=?");
 				prStatement.setString(1, zettel.getDatum());
 				prStatement.setString(2, zettel.getGrund());

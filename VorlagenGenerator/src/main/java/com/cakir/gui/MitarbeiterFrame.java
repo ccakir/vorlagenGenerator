@@ -1,48 +1,38 @@
 package com.cakir.gui;
 
-import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.List;
 
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
 
-import com.cakir.connect.DatabaseConnection;
 import com.cakir.model.Mitarbeiter;
-import com.cakir.service.MitarbeiterService;
 import com.cakir.service.MitarbeiterServiceImpl;
 import com.cakir.swtconfig.SwtComponentsSettings;
 import com.cakir.swtconfig.TableConfig;
 import com.cakir.validation.StringOperations;
-import com.mysql.cj.util.TestUtils;
-
-import javax.swing.JTextField;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-
-import java.awt.Font;
-
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.List;
-import java.awt.event.ActionEvent;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumn;
-import javax.swing.ListSelectionModel;
 
 public class MitarbeiterFrame extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textFieldNachname;
 	private JTextField textFieldVorname;
@@ -134,9 +124,7 @@ public class MitarbeiterFrame extends JFrame {
 
 		btnSpeichern = new JButton("SPEICHERN");
 		swSettings.jButtonSettins(btnSpeichern);
-		btnSpeichern.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/plus.png").getFile()
-			).getAbsolutePath()));
+		
 		btnSpeichern.setBounds(158, 170, 119, 23);
 		contentPane.add(btnSpeichern);
 
@@ -173,18 +161,14 @@ public class MitarbeiterFrame extends JFrame {
 
 		JButton btnDelete = new JButton("LÖSCHEN");
 		swSettings.jButtonSettins(btnDelete);
-		btnDelete.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/behaelter.png").getFile()
-			).getAbsolutePath()));
+		
 		btnDelete.setBounds(10, 587, 113, 23);
 		
 		contentPane.add(btnDelete);
 
 		btnUpdate = new JButton("UPDATE");
 		swSettings.jButtonSettins(btnUpdate);
-		btnUpdate.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/aktualisierung.png").getFile()
-			).getAbsolutePath()));
+		
 		btnUpdate.setBounds(144, 587, 89, 23);
 		contentPane.add(btnUpdate);
 
@@ -204,9 +188,7 @@ public class MitarbeiterFrame extends JFrame {
 		
 		btnReset = new JButton("RESET");
 		swSettings.jButtonSettins(btnReset);
-		btnReset.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/zuruecksetzen.png").getFile()
-			).getAbsolutePath()));
+		
 		btnReset.setBounds(302, 170, 89, 23);
 		contentPane.add(btnReset);
 		

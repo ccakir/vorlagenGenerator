@@ -34,7 +34,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.19</version>
 		</dependency>
-		
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
 		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
 <dependency>
     <groupId>commons-logging</groupId>
@@ -82,7 +86,7 @@
 				  <archive>
 					<manifest>
 						<!-- Jar file entry point -->
-						<mainClass>com.cakir.VorlagenGenerator.Main</mainClass>
+						<mainClass>com.cakir.gui.HauptFrame</mainClass>
 					</manifest>
 				  </archive>
 				</configuration>

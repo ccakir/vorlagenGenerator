@@ -1,6 +1,5 @@
 package com.cakir.gui;
 
-import java.awt.Color;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -142,17 +141,13 @@ public class TeilFrame extends JFrame {
 		
 		btnSpeichern.setBounds(170, 168, 132, 23);
 		swSettings.jButtonSettins(btnSpeichern);
-		btnSpeichern.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/plus.png").getFile()
-			).getAbsolutePath()));
+		
 		contentPane.add(btnSpeichern);
 
 		JButton btnReset = new JButton("RESET");
 
 		swSettings.jButtonSettins(btnReset);
-		btnReset.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/zuruecksetzen.png").getFile()
-			).getAbsolutePath()));
+		
 		btnReset.setBounds(332, 168, 89, 23);
 		contentPane.add(btnReset);
 
@@ -174,18 +169,14 @@ public class TeilFrame extends JFrame {
 		JButton btnLschen = new JButton("LÖSCHEN");
 		
 		swSettings.jButtonSettins(btnLschen);
-		btnLschen.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/behaelter.png").getFile()
-			).getAbsolutePath()));
+		
 		btnLschen.setBounds(10, 537, 89, 23);
 		contentPane.add(btnLschen);
 
 		JButton btnUpdate = new JButton("UPDATE");
 
 		swSettings.jButtonSettins(btnUpdate);
-		btnUpdate.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/aktualisierung.png").getFile()
-			).getAbsolutePath()));
+		
 		btnUpdate.setBounds(126, 537, 89, 23);
 		contentPane.add(btnUpdate);
 

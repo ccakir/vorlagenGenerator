@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URL;
 
 import com.cakir.model.Zettel;
 import com.cakir.service.ZettelServiceImpl;
@@ -24,9 +25,9 @@ public class CreatePDF {
 	
 	
 	
-	private final String filePath = new File(
-			getClass().getClassLoader().getResource("Vorschau.pdf").getFile()
-		).getAbsolutePath();
+	private final String filePath = "Vorschau.pdf";
+	
+	
 	
 	ZettelServiceImpl zettelService = new ZettelServiceImpl();
 

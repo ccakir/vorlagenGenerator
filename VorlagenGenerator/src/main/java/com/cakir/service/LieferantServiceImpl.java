@@ -22,7 +22,7 @@ public class LieferantServiceImpl implements LieferantService {
 
 	private Connection conn;
 
-	DatabaseConnection connect = new DatabaseConnection();
+	
 
 	MitarbeiterServiceImpl mitarbeiterService = new MitarbeiterServiceImpl();
 
@@ -30,7 +30,7 @@ public class LieferantServiceImpl implements LieferantService {
 	public boolean speichernLieferant(Lieferant lieferant) {
 
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 
 			stmt.executeUpdate("INSERT INTO lieferant (name, tel, mitarbeiter_id) VALUES ('" + lieferant.getName() + "','"
@@ -59,7 +59,7 @@ public class LieferantServiceImpl implements LieferantService {
 		List<Lieferant> list = new ArrayList<Lieferant>();
 
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery("SELECT * FROM lieferant ORDER BY id DESC");
@@ -78,7 +78,7 @@ public class LieferantServiceImpl implements LieferantService {
 
 			}
 
-			log.info("Alle Lieferanten wurden geladen.");
+			
 			return list;
 
 		} catch (SQLException e) {
@@ -102,7 +102,7 @@ public class LieferantServiceImpl implements LieferantService {
 
 		if (lieferantKontrolle(id)) {
 			try {
-				conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 				Statement stmt = conn.createStatement();
 
 				stmt.executeUpdate("DELETE FROM lieferant WHERE id='" + id + "'");
@@ -131,7 +131,7 @@ public class LieferantServiceImpl implements LieferantService {
 	public Lieferant findLieferantById(long id) {
 
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery("SELECT * FROM lieferant WHERE id='" + id + "'");
@@ -141,7 +141,7 @@ public class LieferantServiceImpl implements LieferantService {
 				Lieferant lieferant = new Lieferant(rs.getLong("id"), rs.getString("name"), rs.getString("tel"),
 						mitarbeiter);
 
-				log.info("ID : " + id + " Lieferant wurde geladen.");
+				
 				return lieferant;
 			} else {
 				log.error("ID : " + id + " Lieferant konnte nicht gefunden werden.(Wert=null)");
@@ -168,7 +168,7 @@ public class LieferantServiceImpl implements LieferantService {
 	public boolean lieferantKontrolle(long id) {
 
 		if (findLieferantById(id) != null) {
-			log.info("ID : " + id + " Lieferant wurde geladen.");
+			
 			return true;
 		} else {
 			log.error("ID : " + id + " Lieferant konnte nicht geladen werden.");
@@ -183,7 +183,7 @@ public class LieferantServiceImpl implements LieferantService {
 		if (lieferantKontrolle(lieferant.getId())) {
 
 			try {
-				conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 				PreparedStatement prStatement = conn
 						.prepareStatement("UPDATE lieferant SET name=?, tel=?, mitarbeiter_id=? WHERE id=?");
 				

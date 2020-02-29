@@ -1,12 +1,6 @@
 package com.cakir.VorlagenGenerator;
 
-import javax.swing.JFrame;
-
 import com.cakir.gui.HomeFrame;
-import com.cakir.gui.LieferantFrame;
-import com.cakir.gui.MitarbeiterFrame;
-import com.cakir.gui.TeilFrame;
-import com.cakir.gui.ZettelFrame;
 
 
 

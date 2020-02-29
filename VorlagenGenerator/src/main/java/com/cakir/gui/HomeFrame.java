@@ -1,22 +1,17 @@
 package com.cakir.gui;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 
-import com.cakir.VorlagenGenerator.Main;
 import com.cakir.connect.DatabaseConnection;
-import com.cakir.model.Teil;
 import com.cakir.model.Zettel;
 import com.cakir.service.TeilServiceImpl;
 import com.cakir.service.ZettelServiceImpl;
 import com.cakir.swtconfig.CreatePDF;
-import com.cakir.swtconfig.Item;
 import com.cakir.swtconfig.SwtComponentsSettings;
 import com.cakir.swtconfig.TableConfig;
 
@@ -24,15 +19,8 @@ import java.awt.Color;
 import java.awt.Component;
 
 import javax.swing.JButton;
-import java.awt.Font;
-import java.awt.Image;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.file.Paths;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
 import java.awt.event.ActionEvent;
@@ -40,30 +28,43 @@ import javax.swing.JLabel;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.SwingConstants;
-import javax.swing.UIManager;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
-import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.JComboBox;
-import javax.swing.JMenuBar;
 import javax.swing.JOptionPane;
-import javax.swing.JMenu;
-import java.awt.Insets;
 import javax.swing.JTabbedPane;
-import javax.swing.border.EtchedBorder;
-import javax.swing.border.LineBorder;
 import javax.swing.JPopupMenu;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.Dimension;
+
+class Connect extends Thread {
+	public void run() {
+		
+DatabaseConnection connect = new DatabaseConnection();
+		
+		try {
+			connect.verbindung();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+	}
+}
 
 public class HomeFrame extends JFrame {
 
-	private Connection conn;
-	DatabaseConnection connect = new DatabaseConnection();
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	
+	
+	
+	
 
 	ZettelServiceImpl zettelService = new ZettelServiceImpl();
 	TeilServiceImpl teilService = new TeilServiceImpl();
@@ -81,6 +82,7 @@ public class HomeFrame extends JFrame {
 				try {
 					HomeFrame frame = new HomeFrame();
 					frame.setVisible(true);
+					frame.setLocationRelativeTo(null);
 
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -93,6 +95,9 @@ public class HomeFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public HomeFrame() {
+		
+		Connect connect = new Connect();
+		connect.start();
 		setForeground(Color.LIGHT_GRAY);
 		setBounds(100, 100, 1200, 900);
 		setResizable(false);
@@ -103,18 +108,8 @@ public class HomeFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		// lblNewLabel.setVerticalTextPosition(SwingConstants.BOTTOM);
-		String iconPath;
-		if (connect.DatabaseConnection()) {
-			
-			iconPath = new File(
-					getClass().getClassLoader().getResource("icons/databaseConnect.png").getFile()
-				).getAbsolutePath();
-			} else {
-			iconPath = new File(
-					getClass().getClassLoader().getResource("icons/databaseConnectFail.png").getFile()
-				).getAbsolutePath();
-			}
+		
+		
 
 		tableOk = new JTable();
 		tableOk.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
@@ -219,7 +214,7 @@ public class HomeFrame extends JFrame {
 
 		JLabel lblNewLabel = new JLabel();
 		panel_1.add(lblNewLabel);
-		lblNewLabel.setIcon(new ImageIcon(iconPath));
+		//lblNewLabel.setIcon(new ImageIcon(iconPath));
 		lblNewLabel.setHorizontalTextPosition(SwingConstants.CENTER);
 
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
@@ -281,9 +276,8 @@ public class HomeFrame extends JFrame {
 		contentPane.add(panel_2);
 
 		JButton btnDelete = new JButton("LÖSCHEN");
-		btnDelete.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/behaelter.png").getFile()
-			).getAbsolutePath()));
+		
+		
 		btnDelete.setBounds(10, 11, 155, 23);
 		swSettings.jButtonSettins(btnDelete);
 		panel_2.add(btnDelete);
@@ -291,26 +285,23 @@ public class HomeFrame extends JFrame {
 		JButton btnUpdate = new JButton("UPDATE");
 
 		btnUpdate.setBounds(186, 11, 155, 23);
-		btnUpdate.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/aktualisierung.png").getFile()
-			).getAbsolutePath()));
+		
+		
 		swSettings.jButtonSettins(btnUpdate);
 		panel_2.add(btnUpdate);
 
 		JButton btnDrucken = new JButton("PDF VORSCHAU");
 
-		btnDrucken.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/vorschau.png").getFile()
-			).getAbsolutePath()));
+		
+		
 		btnDrucken.setBounds(369, 11, 155, 23);
 		swSettings.jButtonSettins(btnDrucken);
 		panel_2.add(btnDrucken);
 
 		JButton btnAktualisieren = new JButton("TABELLE AKTUALISIEREN");
 
-		btnAktualisieren.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/aktualisierung.png").getFile()
-			).getAbsolutePath()));
+		
+		
 		btnAktualisieren.setBounds(974, 213, 211, 23);
 		swSettings.jButtonSettins(btnAktualisieren);
 		contentPane.add(btnAktualisieren);
@@ -464,17 +455,7 @@ public class HomeFrame extends JFrame {
 
 	}
 
-	/*
-	 * 
-	 * private void comboBoxTeilList() {
-	 * 
-	 * List<Teil> listTeil = teilService.alleTeile();
-	 * 
-	 * for(Teil teil : listTeil) {
-	 * 
-	 * comboBoxTeil.addItem(new Item<Object>(teil, teil.getTeilname()+" - "+
-	 * teil.getTeilenummer())); } }
-	 */
+	
 	private JTable getActiveTable(int selectedIndex) {
 
 		switch (selectedIndex) {
@@ -502,15 +483,19 @@ public class HomeFrame extends JFrame {
 
 		List<Zettel> listZettel = zettelService.alleZettel(type);
 
-		for (Zettel zettel : listZettel) {
+		if(listZettel != null) {
+			for (Zettel zettel : listZettel) {
 
-			modelZettel.addRow(new Object[] { no, zettel.getDatum(), zettel.getGrund(), zettel.getQuantity(),
-					zettel.getTeil().getTeilname() + " - " + zettel.getTeil().getTeilenummer(),
-					zettel.getMitarbeiter().getVorname() + " " + zettel.getMitarbeiter().getNachname(),
-					zettel.getType(), zettel.getId() });
-			no++;
+				modelZettel.addRow(new Object[] { no, zettel.getDatum(), zettel.getGrund(), zettel.getQuantity(),
+						zettel.getTeil().getTeilname() + " - " + zettel.getTeil().getTeilenummer(),
+						zettel.getMitarbeiter().getVorname() + " " + zettel.getMitarbeiter().getNachname(),
+						zettel.getType(), zettel.getId() });
+				no++;
+			}
 		}
+		
 	}
+	@SuppressWarnings("unused")
 	private static void addPopup(Component component, final JPopupMenu popup) {
 		component.addMouseListener(new MouseAdapter() {
 			public void mousePressed(MouseEvent e) {

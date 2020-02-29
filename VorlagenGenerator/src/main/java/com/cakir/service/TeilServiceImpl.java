@@ -23,7 +23,7 @@ public class TeilServiceImpl implements TeilService{
 	
 	private Connection conn;
 	
-	DatabaseConnection connect = new DatabaseConnection();
+	
 	
 	MitarbeiterServiceImpl mitarbeiterService = new MitarbeiterServiceImpl();
 	LieferantServiceImpl lieferantService = new LieferantServiceImpl();
@@ -33,7 +33,7 @@ public class TeilServiceImpl implements TeilService{
 	public boolean speichernTeil(Teil teil) {
 		
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 			
 			int result = stmt.executeUpdate("INSERT INTO teil(teilname, teilenummer, mitarbeiter_id, lieferant_id) VALUES"
@@ -68,7 +68,7 @@ public class TeilServiceImpl implements TeilService{
 		List<Teil> list = new ArrayList<Teil>();
 		
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM teil ORDER BY id DESC");
@@ -88,7 +88,7 @@ public class TeilServiceImpl implements TeilService{
 							
 			} 
 			
-			log.info("Alle Teile wurden geladen.");
+			
 			return list;
 		} catch (SQLException e) {
 			log.error("Teile konnten nicht geladen werden", e);
@@ -112,7 +112,7 @@ public class TeilServiceImpl implements TeilService{
 
 		if(teilKontrolle(id) ) {
 			try {
-				conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 				Statement stmt = conn.createStatement();
 				
 				int result = stmt.executeUpdate("DELETE FROM teil WHERE id='"+id+"'");
@@ -145,7 +145,7 @@ public class TeilServiceImpl implements TeilService{
 
 
 		try {
-			conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM teil WHERE id='"+id+"'");
@@ -157,7 +157,7 @@ public class TeilServiceImpl implements TeilService{
 				
 				Teil teil = new Teil(rs.getLong("id"), rs.getString("teilname"),
 						rs.getString("teilenummer"), mitarbeiter, lieferant);
-				log.info("ID : " +id+ " Teil wurde gefunden.");
+				
 				return teil;
 			} else {
 				log.error("ID : "+id+ " Teil konnte nicht gefunden werden.");
@@ -191,7 +191,7 @@ public class TeilServiceImpl implements TeilService{
 		if(teilKontrolle(teil.getId())) {
 			
 			try {
-				conn = DriverManager.getConnection(connect.connectURL, connect.user, connect.password);
+				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
 				PreparedStatement prStatement = conn.prepareStatement("UPDATE teil SET teilname=?,"
 						+ "teilenummer=?, mitarbeiter_id=?, lieferant_id=? WHERE id=?");
 				

@@ -1,20 +1,15 @@
 package com.cakir.gui;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 import java.awt.Font;
-import java.awt.event.ItemEvent;
 import java.io.File;
 import java.util.List;
 
@@ -25,9 +20,6 @@ import javax.swing.JButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.JTableHeader;
-import javax.swing.text.TabExpander;
-
 import com.cakir.model.Lieferant;
 import com.cakir.model.Mitarbeiter;
 import com.cakir.service.LieferantServiceImpl;
@@ -40,7 +32,6 @@ import com.cakir.validation.StringOperations;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.ListSelectionModel;
-import java.awt.SystemColor;
 
 public class LieferantFrame extends JFrame {
 
@@ -141,9 +132,7 @@ public class LieferantFrame extends JFrame {
 		JButton btnSpeichern = new JButton("SPEICHERN");
 
 		swSettings.jButtonSettins(btnSpeichern);
-		btnSpeichern.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/plus.png").getFile()
-			).getAbsolutePath()));
+		
 		btnSpeichern.setBounds(195, 155, 89, 23);
 		
 		contentPane.add(btnSpeichern);
@@ -151,9 +140,7 @@ public class LieferantFrame extends JFrame {
 		JButton btnReset = new JButton("RESET");
 		
 		swSettings.jButtonSettins(btnReset);
-		btnReset.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/zuruecksetzen.png").getFile()
-			).getAbsolutePath()));
+		
 		btnReset.setBounds(303, 155, 89, 23);
 		contentPane.add(btnReset);
 
@@ -186,18 +173,14 @@ public class LieferantFrame extends JFrame {
 		JButton btnLschen = new JButton("LÖSCHEN");
 
 		swSettings.jButtonSettins(btnLschen);
-		btnLschen.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/behaelter.png").getFile()
-			).getAbsolutePath()));
+		
 		btnLschen.setBounds(10, 514, 89, 23);
 		contentPane.add(btnLschen);
 
 		JButton btnUpdate = new JButton("UPDATE");
 
 		swSettings.jButtonSettins(btnUpdate);
-		btnUpdate.setIcon(new ImageIcon(new File(
-				getClass().getClassLoader().getResource("icons/aktualisierung.png").getFile()
-			).getAbsolutePath()));
+		
 		btnUpdate.setBounds(123, 514, 89, 23);
 		contentPane.add(btnUpdate);
 
@@ -256,6 +239,7 @@ public class LieferantFrame extends JFrame {
 		btnSpeichern.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				@SuppressWarnings("rawtypes")
 				Item item = (Item) comboBoxMitarbeiter.getSelectedItem();
 				Object mitarbeiter = item.getValue();
 

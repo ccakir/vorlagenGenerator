@@ -1,6 +1,5 @@
 package com.cakir.gui;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
 
@@ -17,11 +16,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 import java.awt.Font;
-import java.sql.Connection;
 import java.text.NumberFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -38,8 +33,6 @@ import com.cakir.service.TeilServiceImpl;
 import com.cakir.service.ZettelServiceImpl;
 import com.cakir.swtconfig.Item;
 import com.cakir.swtconfig.SwtComponentsSettings;
-import com.cakir.swtconfig.TableConfig;
-
 import javax.swing.JFormattedTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -49,12 +42,15 @@ import java.awt.event.ActionEvent;
 @SuppressWarnings("unchecked")
 public class ZettelFrame extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textFieldId;
 
-	private Connection conn;
+	
 
-	DatabaseConnection connect = new DatabaseConnection();
 	private JTextField textFieldGrund;
 	private JTextField textFieldBemerkung;
 	private JTextField textFieldMaschiene;
@@ -62,6 +58,7 @@ public class ZettelFrame extends JFrame {
 
 	private JFormattedTextField textFieldDatum;
 
+	@SuppressWarnings("rawtypes")
 	public JComboBox comboBoxTeil, comboBoxSchicht, comboBoxAbteilung, comboBoxType, comboBoxMitarbeiter;
 
 	SwtComponentsSettings swtSettings = new SwtComponentsSettings();
@@ -102,6 +99,7 @@ public class ZettelFrame extends JFrame {
 	 * 
 	 * @param updateZettel
 	 */
+	@SuppressWarnings("rawtypes")
 	public ZettelFrame() {
 		setTitle("ZETTEL");
 		setBackground(Color.LIGHT_GRAY);
@@ -261,16 +259,13 @@ public class ZettelFrame extends JFrame {
 		btnSpeichern = new JButton("SPEICHERN");
 		btnSpeichern.setBounds(261, 327, 89, 23);
 		swtSettings.jButtonSettins(btnSpeichern);
-		btnSpeichern.setIcon(new ImageIcon(
-				new File(getClass().getClassLoader().getResource("icons/plus.png").getFile()).getAbsolutePath()));
+		
 		contentPane.add(btnSpeichern);
 
 		btnReset = new JButton("RESET");
 		btnReset.setBounds(375, 327, 89, 23);
 		swtSettings.jButtonSettins(btnReset);
-		btnReset.setIcon(
-				new ImageIcon(new File(getClass().getClassLoader().getResource("icons/zuruecksetzen.png").getFile())
-						.getAbsolutePath()));
+		
 		contentPane.add(btnReset);
 
 		btnSpeichern.addActionListener(new ActionListener() {
@@ -290,7 +285,7 @@ public class ZettelFrame extends JFrame {
 
 				} else {
 
-					Zettel zettel = new Zettel();
+					 Zettel zettel = new Zettel();
 					zettel.setDatum(textFieldDatum.getText());
 					zettel.setGrund(textFieldGrund.getText());
 					zettel.setBemerkung(textFieldBemerkung.getText());
@@ -301,6 +296,10 @@ public class ZettelFrame extends JFrame {
 					zettel.setType(comboBoxType.getSelectedItem().toString());
 					zettel.setTeil((Teil) teil);
 					zettel.setMitarbeiter((Mitarbeiter) mitarbeiter);
+					 
+					
+					
+					
 
 					if (!textFieldId.getText().isEmpty()) {
 						zettel.setId(Long.parseLong(textFieldId.getText()));

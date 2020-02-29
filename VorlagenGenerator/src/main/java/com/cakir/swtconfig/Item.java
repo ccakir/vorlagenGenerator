@@ -1,5 +1,6 @@
 package com.cakir.swtconfig;
 
+@SuppressWarnings("rawtypes")
 public class Item<V> implements Comparable<Item>
 {
 	private V value;
