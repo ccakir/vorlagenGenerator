@@ -32,7 +32,7 @@ public class ZettelServiceImpl implements ZettelService{
 	public void speichernZettel(Zettel zettel) {
 		
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 			
 			int result = stmt.executeUpdate("INSERT INTO zettel(datum, grund, bemerkung, schicht, abteilung, maschiene, quantity,"
@@ -70,7 +70,7 @@ public class ZettelServiceImpl implements ZettelService{
 		List<Zettel> listZettel = new ArrayList<Zettel>();
 		
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery("SELECT * FROM zettel WHERE type='"+type+"'ORDER BY id DESC");
 			
@@ -122,7 +122,7 @@ public class ZettelServiceImpl implements ZettelService{
 		if(zettelKontrolle(id) ) {
 			
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				Statement stmt = conn.createStatement();
 				
 				int result = stmt.executeUpdate("DELETE FROM zettel WHERE id='"+id+"'");
@@ -153,7 +153,7 @@ public class ZettelServiceImpl implements ZettelService{
 	@Override
 	public Zettel findZettelById(long id) {
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM zettel WHERE id='"+id+"'");
@@ -212,7 +212,7 @@ public class ZettelServiceImpl implements ZettelService{
 		if(zettelKontrolle(zettel.getId())) {
 			
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				PreparedStatement prStatement = conn.prepareStatement("UPDATE zettel SET datum=?, grund=?, bemerkung=?, schicht=?, abteilung=?, maschiene=?, quantity=?, teil_id=?, mitarbeiter_id=?, type=? WHERE id=?");
 				prStatement.setString(1, zettel.getDatum());
 				prStatement.setString(2, zettel.getGrund());

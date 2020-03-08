@@ -30,7 +30,7 @@ public class LieferantServiceImpl implements LieferantService {
 	public boolean speichernLieferant(Lieferant lieferant) {
 
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 
 			stmt.executeUpdate("INSERT INTO lieferant (name, tel, mitarbeiter_id) VALUES ('" + lieferant.getName() + "','"
@@ -59,7 +59,7 @@ public class LieferantServiceImpl implements LieferantService {
 		List<Lieferant> list = new ArrayList<Lieferant>();
 
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery("SELECT * FROM lieferant ORDER BY id DESC");
@@ -102,7 +102,7 @@ public class LieferantServiceImpl implements LieferantService {
 
 		if (lieferantKontrolle(id)) {
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				Statement stmt = conn.createStatement();
 
 				stmt.executeUpdate("DELETE FROM lieferant WHERE id='" + id + "'");
@@ -131,7 +131,7 @@ public class LieferantServiceImpl implements LieferantService {
 	public Lieferant findLieferantById(long id) {
 
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery("SELECT * FROM lieferant WHERE id='" + id + "'");
@@ -183,7 +183,7 @@ public class LieferantServiceImpl implements LieferantService {
 		if (lieferantKontrolle(lieferant.getId())) {
 
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				PreparedStatement prStatement = conn
 						.prepareStatement("UPDATE lieferant SET name=?, tel=?, mitarbeiter_id=? WHERE id=?");
 				

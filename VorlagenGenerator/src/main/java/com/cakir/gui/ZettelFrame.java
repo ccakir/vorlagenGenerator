@@ -7,7 +7,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import com.cakir.connect.DatabaseConnection;
 import com.cakir.model.Schicht;
 import com.cakir.model.Teil;
 import com.cakir.model.Zettel;
@@ -23,8 +22,6 @@ import java.util.List;
 import javax.swing.JTextField;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
-import javax.swing.ImageIcon;
-
 import com.cakir.model.Abteilung;
 import com.cakir.model.Mitarbeiter;
 import com.cakir.model.ZettelType;
@@ -36,7 +33,6 @@ import com.cakir.swtconfig.SwtComponentsSettings;
 import javax.swing.JFormattedTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.awt.event.ActionEvent;
 
 @SuppressWarnings("unchecked")

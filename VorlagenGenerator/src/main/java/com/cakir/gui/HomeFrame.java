@@ -21,6 +21,7 @@ import java.awt.Component;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 import java.awt.event.ActionEvent;
@@ -41,14 +42,13 @@ import java.awt.event.MouseEvent;
 class Connect extends Thread {
 	public void run() {
 		
-DatabaseConnection connect = new DatabaseConnection();
+try {
+	DatabaseConnection.getMySQLConnection();
+} catch (SQLException e) {
+	
+	e.printStackTrace();
+}
 		
-		try {
-			connect.verbindung();
-		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
 		
 	}
 }

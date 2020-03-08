@@ -33,7 +33,7 @@ public class TeilServiceImpl implements TeilService{
 	public boolean speichernTeil(Teil teil) {
 		
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 			
 			int result = stmt.executeUpdate("INSERT INTO teil(teilname, teilenummer, mitarbeiter_id, lieferant_id) VALUES"
@@ -68,7 +68,7 @@ public class TeilServiceImpl implements TeilService{
 		List<Teil> list = new ArrayList<Teil>();
 		
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM teil ORDER BY id DESC");
@@ -112,7 +112,7 @@ public class TeilServiceImpl implements TeilService{
 
 		if(teilKontrolle(id) ) {
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				Statement stmt = conn.createStatement();
 				
 				int result = stmt.executeUpdate("DELETE FROM teil WHERE id='"+id+"'");
@@ -145,7 +145,7 @@ public class TeilServiceImpl implements TeilService{
 
 
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 			
 			ResultSet rs = stmt.executeQuery("SELECT * FROM teil WHERE id='"+id+"'");
@@ -191,7 +191,7 @@ public class TeilServiceImpl implements TeilService{
 		if(teilKontrolle(teil.getId())) {
 			
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				PreparedStatement prStatement = conn.prepareStatement("UPDATE teil SET teilname=?,"
 						+ "teilenummer=?, mitarbeiter_id=?, lieferant_id=? WHERE id=?");
 				

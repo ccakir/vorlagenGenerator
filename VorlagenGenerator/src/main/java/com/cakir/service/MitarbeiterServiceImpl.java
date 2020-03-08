@@ -26,7 +26,7 @@ public class MitarbeiterServiceImpl implements MitarbeiterService {
 	public boolean speichernMitarbeiter(Mitarbeiter mitarbeiter) {
 
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 
 			stmt.executeUpdate("INSERT INTO mitarbeiter (vorname, nachname, email, tel)" + "VALUES ('"
@@ -59,7 +59,7 @@ public class MitarbeiterServiceImpl implements MitarbeiterService {
 
 		List<Mitarbeiter> list = new ArrayList<Mitarbeiter>();
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery("SELECT * FROM mitarbeiter ORDER BY id DESC");
@@ -99,7 +99,7 @@ public class MitarbeiterServiceImpl implements MitarbeiterService {
 		if (mitarbeiterKontrolle(id)) {
 
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				Statement stmt = conn.createStatement();
 				stmt.executeUpdate("DELETE FROM mitarbeiter WHERE id='" + id + "'");
 				log.info("ID : " + id + " Mitarbeiter wurde von Datenbank gelöscht.");
@@ -121,7 +121,7 @@ public class MitarbeiterServiceImpl implements MitarbeiterService {
 	public Mitarbeiter findMitarbeiterById(long id) {
 
 		try {
-			conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+			conn = DatabaseConnection.getMySQLConnection();
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery("SELECT * FROM mitarbeiter WHERE id='" + id + "'");
@@ -166,7 +166,7 @@ public class MitarbeiterServiceImpl implements MitarbeiterService {
 		if (mitarbeiterKontrolle(mitarbeiter.getId())) {
 
 			try {
-				conn = DriverManager.getConnection(DatabaseConnection.connectURL, DatabaseConnection.user, DatabaseConnection.password);
+				conn = DatabaseConnection.getMySQLConnection();
 				PreparedStatement preparedStmt = conn
 						.prepareStatement("UPDATE mitarbeiter SET vorname=?, nachname=?, email=?, tel=? WHERE id=?");
 				preparedStmt.setString(1, mitarbeiter.getVorname());
